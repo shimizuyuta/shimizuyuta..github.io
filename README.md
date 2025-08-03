@@ -1,2 +1,1 @@
-# shimizuyuta..github.io
-テストLP
+公式LINE用　サンプルLP
