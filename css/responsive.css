@@ -1,0 +1,33 @@
+/* レスポンシブ専用CSS */
+@media (max-width: 768px) {
+    .header {
+        padding: 10px 0;
+    }
+    
+    .nav-container {
+        padding: 0 15px;
+    }
+    
+    .logo {
+        font-size: 1.2rem;
+    }
+    
+    .hero {
+        background-attachment: scroll;
+    }
+    
+    .section {
+        padding: 60px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .hero-cta {
+        padding: 15px 25px;
+        font-size: 1rem;
+    }
+}

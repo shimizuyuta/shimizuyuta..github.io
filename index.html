@@ -4,153 +4,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ネイルサロン マリーヌ | 千葉市美浜区磯辺</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Hiragino Sans', 'Yu Gothic', sans-serif;
-            line-height: 1.6;
-            color: #333;
-        }
-        
-        .hero {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            text-align: center;
-            padding: 100px 20px;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-        
-        .hero h1 {
-            font-size: 3rem;
-            margin-bottom: 20px;
-        }
-        
-        .hero p {
-            font-size: 1.2rem;
-            margin-bottom: 30px;
-        }
-        
-        .cta-button {
-            background: #ff6b6b;
-            color: white;
-            padding: 15px 30px;
-            border: none;
-            border-radius: 50px;
-            font-size: 1.1rem;
-            cursor: pointer;
-            text-decoration: none;
-            display: inline-block;
-            transition: transform 0.3s ease;
-        }
-        
-        .cta-button:hover {
-            transform: translateY(-3px);
-        }
-        
-        .features {
-            padding: 80px 20px;
-            max-width: 1200px;
-            margin: 0 auto;
-            text-align: center;
-        }
-        
-        .features h2 {
-            font-size: 2.5rem;
-            margin-bottom: 50px;
-        }
-        
-        .feature-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 40px;
-        }
-        
-        .feature-item {
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-        
-        .feature-icon {
-            font-size: 3rem;
-            margin-bottom: 20px;
-        }
-        
-        .contact {
-            background: #f8f9fa;
-            padding: 80px 20px;
-            text-align: center;
-        }
-        
-        .line-button {
-            background: #00B900;
-            color: white;
-            padding: 20px 40px;
-            border-radius: 10px;
-            text-decoration: none;
-            font-size: 1.2rem;
-            font-weight: bold;
-            display: inline-block;
-            margin: 20px;
-            transition: all 0.3s ease;
-        }
-        
-        .line-button:hover {
-            background: #009900;
-            transform: scale(1.05);
-        }
-    </style>
+    <meta name="description" content="千葉市美浜区磯辺の海を感じるネイルサロン「マリーヌ」">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" href="images/icons/favicon.ico">
 </head>
 <body>
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/icons/logo.png" alt="Nail Salon MARINE" class="logo-img">
+                🌊 Nail Salon MARINE
+            </div>
+            <a href="#cta" class="line-header-btn">📱 LINE予約</a>
+        </div>
+    </header>
+
+    <!-- ヒーローセクション -->
     <section class="hero">
-        <h1>🌊 Nail Salon MARINE</h1>
-        <p>海を感じる癒しの空間で、あなただけの特別なネイルを</p>
-        <p>📍 千葉市美浜区磯辺 NEW OPEN予定</p>
-        <a href="#contact" class="cta-button">🎁 初回50%OFF予約する</a>
+        <div class="hero-content">
+            <h1>Nail Salon MARINE</h1>
+            <p class="hero-subtitle">海を感じる癒しの空間で、あなただけの特別なネイルを</p>
+            <p class="hero-location">📍 千葉市美浜区磯辺</p>
+            <a href="#cta" class="hero-cta">LINE で予約する</a>
+        </div>
+        <div class="wave"></div>
     </section>
-    
-    <section class="features">
-        <h2>✨ 選ばれる理由</h2>
-        <div class="feature-grid">
-            <div class="feature-item">
-                <div class="feature-icon">💅</div>
-                <h3>トレンドデザイン</h3>
-                <p>最新トレンドを取り入れた豊富なデザインをご提案</p>
-            </div>
-            <div class="feature-item">
-                <div class="feature-icon">🎨</div>
-                <h3>オーダーメイド</h3>
-                <p>お客様だけのオリジナルアートを丁寧に作成</p>
-            </div>
-            <div class="feature-item">
-                <div class="feature-icon">🌊</div>
-                <h3>癒しの空間</h3>
-                <p>海を感じるリラックスできる店内でゆったりと</p>
+
+    <!-- 特徴セクション -->
+    <section class="features section">
+        <div class="container">
+            <h2 class="section-title">✨ 選ばれる理由</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <img src="images/icons/nail-icon.png" alt="ネイル" class="feature-icon">
+                    <h3>トレンドデザイン</h3>
+                    <p>最新のトレンドを取り入れた豊富なデザインをご提案。</p>
+                </div>
+                <div class="feature-card">
+                    <img src="images/icons/art-icon.png" alt="アート" class="feature-icon">
+                    <h3>オーダーメイドアート</h3>
+                    <p>お客様のご要望に合わせたオリジナルアート。</p>
+                </div>
+                <div class="feature-card">
+                    <img src="images/icons/relax-icon.png" alt="癒し" class="feature-icon">
+                    <h3>海を感じる癒し空間</h3>
+                    <p>海岸に近い立地を活かしたリラックス空間。</p>
+                </div>
             </div>
         </div>
     </section>
-    
-    <section id="contact" class="contact">
-        <h2>📱 LINEで簡単予約</h2>
-        <p>お友達登録で初回50%OFFクーポンプレゼント！</p>
-        <a href="https://line.me/ti/p/@your-line-id" class="line-button">
-            LINE友達追加はこちら
-        </a>
-        <div style="margin-top: 40px;">
-            <p><strong>📍 アクセス</strong></p>
-            <p>JR京葉線検見川浜駅から徒歩8分</p>
-            <p>駐車場2台完備</p>
-            <p><strong>⏰ 営業時間</strong></p>
-            <p>10:00-19:00（火曜定休）</p>
+
+    <!-- ギャラリーセクション -->
+    <section class="gallery section">
+        <div class="container">
+            <h2 class="section-title">💎 ネイルギャラリー</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/gallery/shell-nail.jpg" alt="シェルパーツネイル">
+                    <div class="gallery-overlay">
+                        <h4>シェルパーツネイル</h4>
+                        <p>海の贅沢を指先に</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery/blue-gradient.jpg" alt="ブルーグラデーション">
+                    <div class="gallery-overlay">
+                        <h4>オーシャングラデ</h4>
+                        <p>涼しげな海のグラデーション</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery/white-nail.jpg" alt="ホワイトネイル">
+                    <div class="gallery-overlay">
+                        <h4>パールホワイト</h4>
+                        <p>上品で清楚な仕上がり</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery/flower-art.jpg" alt="フラワーアート">
+                    <div class="gallery-overlay">
+                        <h4>フラワーアート</h4>
+                        <p>繊細な手描きフラワー</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+
+    <!-- CTAセクション -->
+    <section id="cta" class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>🌺 ご予約・お問い合わせ</h2>
+                <p>LINEで簡単にご予約いただけます。</p>
+                <a href="https://line.me/ti/p/@your-line-id" class="line-cta-button" target="_blank">
+                    📱 LINE友達追加
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
 </body>
 </html>
