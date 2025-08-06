@@ -1,0 +1,25 @@
+{
+  "salon": {
+    "name": "Nail Salon MARINE",
+    "address": "千葉県千葉市美浜区磯辺 5-55-5",
+    "hours": "10:00〜18:00",
+    "closed": "土日祝日"
+  },
+  "menu": {
+    "hand": [
+      {"name": "健康コース", "price": 7700, "time": "50-60分", "recommended": true},
+      {"name": "健康プレミアムコース", "price": 8500, "time": "50-60分"},
+      {"name": "健康パーフェクトコース", "price": 14000, "time": "75-90分"}
+    ],
+    "foot": [
+      {"name": "足爪健康コース", "price": 8500, "time": "50-60分"},
+      {"name": "足爪健康プレミアムコース", "price": 9500, "time": "50-60分"},
+      {"name": "足爪健康パーフェクトコース", "price": 13000, "time": "75-90分"}
+    ]
+  },
+  "staff": [
+    {"name": "佐藤太郎", "experience": 8},
+    {"name": "田中太郎", "experience": 6},
+    {"name": "山田花子", "experience": 5}
+  ]
+}
