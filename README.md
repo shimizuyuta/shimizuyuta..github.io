@@ -1,5 +1,8 @@
 # ネイルサロンMARINE ランディングページ
 
+## URL
+https://shimizuyuta.github.io/shimizuyuta..github.io/
+
 ## ミッション
 既存のindex.htmlを改良し、20-30代男性をターゲットにしたLINE登録促進のLPを作成
 
